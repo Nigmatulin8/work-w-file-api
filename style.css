@@ -1,0 +1,52 @@
+html, body {
+	padding: 0;
+	background-color: whitesmoke;
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	text-align: center;
+}
+
+input {
+	font-size: 16px;
+	margin: 10px auto;
+}
+
+#dropZone {
+	width: 650px;
+	height: 100px;
+	border: dashed 2px #8d8d8d99;
+	margin: 0 auto;
+	padding-top: 2.7%;
+	font-size: 36px;
+	color: gray; 
+}
+
+#dropZone:hover {
+	background-color: #ededed99;
+	border: dashed 2px gray;
+}
+
+#progress {
+	margin-top: 10px;
+	height: 30px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#list {
+	display: flex;
+	margin: 0 auto;
+	width: 660px;
+}
+
+#loadedContent {
+	width: 1024px;
+	word-break: break-all;
+	margin: 10px auto;
+	padding: 10px;
+}
